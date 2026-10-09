@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transskill"
+version = "0.1.0"
+description = "Basic translation skill framework"
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

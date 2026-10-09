@@ -1,0 +1,14 @@
+# Basic framework settings.
+max_steps: 3
+
+# Supply a model client in your application; connection settings are omitted.
+# model: <MODEL_NAME>
+# endpoint: <MODEL_ENDPOINT>
+# api_key_env: <ENVIRONMENT_VARIABLE_NAME>
+
+# Optional local paths: uncomment and replace with project-relative paths.
+# input_path: <RELATIVE_INPUT_PATH>
+# output_path: <RELATIVE_OUTPUT_PATH>
+# semantic_memory_path: <RELATIVE_SEMANTIC_MEMORY_PATH>
+# episodic_memory_path: <RELATIVE_EPISODIC_MEMORY_PATH>
+# This file documents integration points; the runner uses explicit arguments.
