@@ -1,16 +1,4 @@
-# TransSkill Basic Framework (Review Draft)
-
-This standalone review draft extracts skill definitions from the final code and
-simplifies the runtime components. It retains the basic detection, diagnosis,
-planning, execution, verification, and diagnosis after accepted revisions,
-along with six fixed skill specifications, structured contracts, working state,
-and empty memory extension points.
-
-The interfaces differ from the original repository. This draft does not reproduce
-the full experimental implementation. Supply an implementation of `LLMClient` to
-make model calls. The included `MockLLMClient` has no preloaded responses, and no
-service connection settings are bundled. Semantic and episodic memory are empty
-extension points and are not connected to the main loop.
+# TransSkill Basic Framework 
 
 ## Layout
 
