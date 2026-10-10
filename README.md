@@ -29,16 +29,4 @@ errors directly. The controller executes only the first planned step per iterati
 and commits a candidate draft only when both target and preservation checks pass.
 Rejected revisions leave the committed draft unchanged.
 
-## Excluded Content
 
-No datasets, samples, reference translations, annotations, knowledge bases,
-experience records, model weights, results, logs, caches, virtual environments,
-or version history are included.
-
-Model-specific prompt addenda, sampling tuning, retries, truncation recovery,
-output patches, retrieval ranking, frozen snapshots, development/test splits,
-evaluation, ablation experiments, and cluster launch scripts have been removed.
-
-Actual local paths, usernames, internal endpoints, and credentials are omitted,
-including from comments. Local settings use commented generic placeholders for
-project-relative paths or environment variable names.
